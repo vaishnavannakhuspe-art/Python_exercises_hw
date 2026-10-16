@@ -13,6 +13,6 @@ if area_1 == area_2:
     exit(1)
 
 if area_1 > area_2:
-    print("Shape1 is greater than Shape2")
+    print("shape1 is greater than shape2")
 else:
-    print("Shape2 is greater than Shape1")
+    print("shape2 is greater than shape1")
