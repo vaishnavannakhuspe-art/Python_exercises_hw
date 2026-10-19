@@ -16,12 +16,14 @@
 weight = int(input("Enter weight in Kg:"))
 height = float(input("Enter height [foot.inch] format:"))
 
-weight_lbs = weight * 2.20
+
 foot_to_inches= (height//1)*12
 inches = (height%1)*10
 height_inches = foot_to_inches + inches
+height_meters = (height_inches)*0.0254
 
-bmi = (weight_lbs*703)/(height_inches*height_inches)
+bmi = (weight)/(height_meters*height_meters)
+print(bmi)
 
 if bmi >= 30:
     print("Obesity level II")
