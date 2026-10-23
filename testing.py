@@ -17,4 +17,8 @@ for i in list2:
 print(different_items)
 
 
-
+string = "the easy learn acadmy"
+if "el" in string:
+    print("true")
+else:
+    print("false")
